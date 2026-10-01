@@ -56,7 +56,7 @@ export default function Home() {
 
       <section id="sobre">
        <div className="grid grid-cols-1 lg:grid-cols-2 py-16 md:py-40 overflow-hidden gap-10 ">
-<section className=" flex- flex-col py-8 relative lg:rounded-full md:rounded-t-full bg-black lg:h-60 h-110 overflow-hidden md:overflow-visible">
+<section className=" flex- flex-col py-8 relative lg:rounded-full rounded-t-full md:rounded-t-full lg:bg-black bg-purple-950 lg:h-60 h-50 overflow-hidden md:overflow-visible">
         <div className="absolute  lg:top-[-60] md:bottom-[-2] md:pl-30 ">
 
   
@@ -69,7 +69,7 @@ export default function Home() {
          <h2 className="font-mono text-3xl md:text-4xl">Sobre a Expandir...</h2>
          
          <h3 className="text-lg md:text-2xl font-inter font-extralight">
-          O mundo está cheio de oportunidades, e a gente te ajuda a encontrar as melhores. A Expandir é uma plataforma feita para conectar adolescentes a cursos 100% gratuitos e de qualidade. Queremos ser a ponte entre o seu talento e o seu futuro, reunindo in um só lugar as melhores capacitações da internet para você começar a mudar sua realidade hoje mesmo.
+          O mundo está cheio de oportunidades, e a gente te ajuda a encontrar as melhores. A Expandir é uma plataforma feita para conectar adolescentes a cursos 100% gratuitos e de qualidade. Queremos ser a ponte entre o seu talento e o seu futuro, reunindo em um só lugar as melhores capacitações da internet para você começar a mudar sua realidade hoje mesmo.
          </h3>
 
      <Link href={'#cursos3'} className=" w-60 text-center m-auto bg-linear-to-r from-pink-500 to-purple-800 py-2 font-inter font-bold">
