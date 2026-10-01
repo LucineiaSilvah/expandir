@@ -20,7 +20,7 @@ export default function Home() {
             <Link href="#sobre" className="hover:underline">Sobre Nós</Link>
           </li>
           <li>
-            <Link href="#cursos" className="hover:underline">Cursos</Link>
+            <Link href="#cursos1" className="hover:underline">Cursos</Link>
           </li>
         </ul>
       </nav>
@@ -37,7 +37,7 @@ export default function Home() {
           Os melhores cursos online e gratuitos para você turbinar seu currículo, descobrir novas profissões e mandar bem no futuro.
          </h2>
 
-     <Link href={'#cursos'} className=" w-60 text-center m-auto bg-linear-to-r from-pink-500 to-purple-800 py-2 font-inter font-bold">
+     <Link href={'#cursos2'} className=" w-60 text-center m-auto bg-linear-to-r from-pink-500 to-purple-800 py-2 font-inter font-bold">
          Ver cursos
      </Link>
    
@@ -72,7 +72,7 @@ export default function Home() {
           O mundo está cheio de oportunidades, e a gente te ajuda a encontrar as melhores. A Expandir é uma plataforma feita para conectar adolescentes a cursos 100% gratuitos e de qualidade. Queremos ser a ponte entre o seu talento e o seu futuro, reunindo in um só lugar as melhores capacitações da internet para você começar a mudar sua realidade hoje mesmo.
          </h3>
 
-     <Link href={'#cursos'} className=" w-60 text-center m-auto bg-linear-to-r from-pink-500 to-purple-800 py-2 font-inter font-bold">
+     <Link href={'#cursos3'} className=" w-60 text-center m-auto bg-linear-to-r from-pink-500 to-purple-800 py-2 font-inter font-bold">
          Ver cursos
      </Link>
         
@@ -82,9 +82,9 @@ export default function Home() {
       </section>
       
     
-      <section id="cursos">
+      <section id="cursos1">
          <h2 className="font-mono text-center text-xl md:text-2xl py-10 text-emerald-400 mt-20 md:mt-40">Não espere o Ensino Médio acabar para começar a construir o seu futuro profissional, começe Agora !!</h2>
-        <div className="w-full md:w-100 h-auto rounded-r-3xl text-black bg-linear-9 from-emerald-50 to-purple-400">
+        <div id="cursos2" className="w-full md:w-100 h-auto rounded-r-3xl text-black bg-linear-9 from-emerald-50 to-purple-400">
           
           <h2 className="font-mono text-2xl md:text-4xl pl-2">
             conectando ...
@@ -92,7 +92,7 @@ export default function Home() {
         </div>
 
       
-        <div className=" bg-black grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-4 md:p-10 gap-6 md:gap-10 text-sm font-inter lowercase h-auto">
+        <div id="cursos3" className=" bg-black grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-4 md:p-10 gap-6 md:gap-10 text-sm font-inter lowercase h-auto">
 
          <Link href={'https://ciee.org.br'} target="_blank" className="h-auto lg:h-60 shadow-sm shadow-white p-4 text-white bg-linear-30  from-bg-gray-200 to-gray-600">
 
@@ -205,6 +205,27 @@ Introdução ao SQL (Bancos de dados).
 <p className="">
 Uma plataforma global interativa e sem fins lucrativos. O estudante aprende programando direto...
 </p>
+</Link>
+
+     <Link href={'https://w3schools.com'} target="_blank" className="h-60 shadow-sm shadow-white p-4 text-white bg-linear-30 from-green-600 to-gray-500 border-l-8">
+<p className="font-mono text-2xl pb-2 uppercase">W3Schools (Em Português)</p>
+<p className="">
+O maior site de referência e consulta para programadores do mundo. Possui tutoriais curtos, objetivos e um editor onde o aluno pode alterar o código e ver o resultado na hora.
+</p>
+<ol className="list-disc pl-6">
+  <p className="font-mono">
+    O que aprender:
+  </p>
+  <li>
+    Tags HTML5 e Estilização CSS3
+  </li>
+  <li>
+    Sintaxe de JavaScript e Python
+  </li>
+  <li>
+    Estruturas de Banco de Dados SQL
+  </li>
+</ol>
 </Link>
         </div>
       </section>
