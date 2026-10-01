@@ -1,33 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Expandir - Plataforma de Cursos Gratuitos para o Ensino Médio
 
-## Getting Started
+O **Expandir** é um indexador inteligente e dinâmico feito sob medida para adolescentes e estudantes do Ensino Médio. O objetivo do projeto é conectar os jovens a oportunidades reais de capacitação digital e profissional de forma **100% gratuita, online (EAD) e sem processos seletivos burocráticos**.
 
-First, run the development server:
+A plataforma reúne os melhores atalhos para trilhas de tecnologia, programação (foco em Python), UI/UX e preparação direta para o mercado de trabalho (como vagas de Jovem Aprendiz).
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Tecnologias Utilizadas
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+O ecossistema visual e estrutural do projeto foi desenvolvido com tecnologias modernas de desenvolvimento web:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+*   **[Next.js](https://nextjs.org)** (App Router) — Framework React para alta performance, rotas otimizadas e renderização veloz.
+*   **[Tailwind CSS](https://tailwindcss.com)** — Framework utilitário de CSS para a criação de uma interface responsiva, com suporte nativo a efeitos dinâmicos e estilo *dark mode*.
+*   **[TypeScript](https://typescriptlang.org)** — Tipagem estática para garantir a segurança e a consistência do código do projeto.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 📚 Plataformas Mapeadas e Conectadas
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Os cartões de acesso direto do site direcionam o estudante sem intermediários para as melhores instituições de ensino do Brasil:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 🎓 Com Emissão de Certificado Oficial (MEC e Parceiros)
+*   **[CIEE – Saber Virtual](https://ciee.org.br)**: Trilhas focadas em informática essencial, pacote office, redação e postura corporativa para contratação de Jovens Aprendizes.
+*   **[Plataforma Aprenda Mais (MEC)](https://mec.gov.br)**: Programas rápidos de tecnologia da informação e robótica desenvolvidos pela Rede Federal de Educação.
+*   **[IFRS Virtual](https://ifrs.edu.br)**: Um dos catálogos de programação e banco de dados mais robustos e completos da rede federal.
+*   **[UFPR Aberta](https://ufpr.br)**: Cursos livres de extensão com o peso acadêmico da Universidade Federal do Paraná, incluindo o curso direto de **[Programação Python](https://ufpr.brenrol/index.php?id=1706)**.
+
+### ⚡ Prática Livre e Ferramentas Gamificadas (Foco em Habilidade)
+*   **[Curso em Vídeo](https://youtube.com)**: Metodologia brasileira focada em lógica, HTML5, CSS3, JavaScript e bancos de dados para iniciantes.
+*   **[Khan Academy](https://khanacademy.org)**: Ambiente de computação lúdico e interativo, ideal para adolescentes aprenderem animações com JavaScript e sintaxe web.
+*   **[freeCodeCamp Brasil](https://freecodecamp.org)**: Desafios interativos de desenvolvimento de software e algoritmos executados direto no navegador.
+
+---
+
+## 🧭 Estrutura de Navegação Interna
+
+Para otimizar a experiência do usuário e manter o site rápido, a página principal foi organizada com links de âncoras locais através do componente `<Link>` do Next.js, evitando recarregamentos desnecessários da tela:
+
+*   `#inicio`: Topo da página, exibindo o título de impacto e o manifesto de urgência sobre a evolução do mercado e das ferramentas de Inteligência Artificial.
+*   `#sobre`: Seção detalhada sobre a história, a essência e o compromisso social da plataforma **Expandir**.
+*   `#cursos`: Catálogo completo de cartões, divididos estrategicamente entre cursos focados em diplomas/currículos e trilhas focadas em prática pura.
+
+---
+
+## 🚀 Como Executar o Projeto Localmente
+
+1. Clone o repositório do projeto:
+   ```bash
+   git clone https://github.com
+   ```
+2. Instale as dependências necessárias:
+   ```bash
+   npm install
+   # ou
+   yarn install
+   ```
+3. Execute o servidor de desenvolvimento:
+   ```bash
+   npm run dev
+   # ou
+   yarn dev
+   ```
+4. Abra o endereço [http://localhost:3000](http://localhost:3000) no seu navegador para visualizar a plataforma.
 
 ## Deploy on Vercel
 
