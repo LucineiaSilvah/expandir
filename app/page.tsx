@@ -207,7 +207,7 @@ Uma plataforma global interativa e sem fins lucrativos. O estudante aprende prog
 </p>
 </Link>
 
-     <Link href={'https://w3schools.com'} target="_blank" className="h-60 shadow-sm shadow-white p-4 text-white bg-linear-30 from-green-600 to-gray-500 border-l-8">
+     <Link href={'https://w3schools.com'} target="_blank" className="h-auto shadow-sm shadow-white p-4 text-white bg-linear-30 from-green-600 to-gray-500 border-l-8">
 <p className="font-mono text-2xl pb-2 uppercase">W3Schools (Em Português)</p>
 <p className="">
 O maior site de referência e consulta para programadores do mundo. Possui tutoriais curtos, objetivos e um editor onde o aluno pode alterar o código e ver o resultado na hora.
