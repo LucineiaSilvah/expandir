@@ -7,7 +7,7 @@ import foto2 from "@/public/img/foto2.png"
 
 export default function Home() {
   return (
-    <div className="flex flex-col h-full bg-linear-to-t from-purple-950 to-black font-sans text-white">
+    <div className="flex flex-col h-full bg-linear-to-t from-purple-950 to-gray-900 font-sans text-white">
      <header className="flex flex-col items-center gap-3 md:flex-row md:items-stretch md:gap-0 item-center justify-between p-4 md:p-8 border-b-4 fixed w-full bg-black z-50">
       <h1 className="font-mono text-xl md:text-2xl">Expandir</h1>
       <nav> 
@@ -94,14 +94,14 @@ export default function Home() {
       
         <div id="cursos3" className=" bg-black grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-4 md:p-10 gap-6 md:gap-10 text-sm font-inter lowercase h-auto">
 
-         <Link href={'https://ciee.org.br'} target="_blank" className="h-auto lg:h-60 shadow-sm shadow-white p-4 text-white bg-linear-30  from-bg-gray-200 to-gray-600">
+         <Link href={'https://portal.ciee.org.br/universo-ciee/74-cursos-gratuitos-do-ciee-para-impulsionar-sua-carreira/'} target="_blank" className="h-auto lg:h-60 shadow-sm shadow-white p-4 text-white bg-linear-30  from-bg-gray-200 to-gray-600">
 
 <p className="font-mono text-xl md:text-2xl pb-2 uppercase">CIEE </p>
 <p className="">
 Cursos focados em te preparar para o mercado de trabalho e para processos seletivos de Jovem Aprendiz. Eles oferecem trilhas de Informática Prática (Word, Excel e PowerPoint), Matemática Financeira, Redação Prática e postura em entrevistas de emprego.
 </p>
 </Link>
-         <Link href={'https://mec.gov.br'} target="_blank" className="h-auto lg:h-60 shadow-sm shadow-white p-4 text-white bg-linear-30  from-bg-gray-200 to-gray-600">
+         <Link href={'https://aprendamais.mec.gov.br/'} target="_blank" className="h-auto lg:h-60 shadow-sm shadow-white p-4 text-white bg-linear-30  from-bg-gray-200 to-gray-600">
 
 <p className="font-mono text-xl md:text-2xl pb-2 uppercase">Aprenda + </p>
 <p className="">
@@ -111,21 +111,21 @@ A iniciativa nacional do Ministério da Educação hospeda na Plataforma Aprenda
 
 
 
-<Link href={'https://ifrs.edu.br'} target="_blank"className="h-auto lg:h-60 shadow-sm shadow-white p-4 text-white bg-linear-30  from-bg-gray-200 to-gray-600">
+<Link href={'https://moodle.ifrs.edu.br/course/index.php'} target="_blank"className="h-auto lg:h-60 shadow-sm shadow-white p-4 text-white bg-linear-30  from-bg-gray-200 to-gray-600">
 
 <p className="font-mono text-xl md:text-2xl  pb-2 uppercase">IFRS Virtual</p>
 <p>
 O IFRS possui uma das maiores e mais completas plataformas de cursos de tecnologia livres do país, com trilhas que vão do básico ao avançado.
 </p>
 </Link>
-<Link href={'https://ufpr.br'} target="_blank" className="h-auto lg:h-60 shadow-sm shadow-white p-4 text-white bg-linear-30  from-bg-gray-200 to-gray-600">
+<Link href={'https://ufpraberta.ufpr.br/course/index.php?categoryid=13'} target="_blank" className="h-auto lg:h-60 shadow-sm shadow-white p-4 text-white bg-linear-30  from-bg-gray-200 to-gray-600">
 
 <p className="font-mono text-xl md:text-2xl  pb-2 uppercase">UFPR Aberta</p>
 <p>
  O portal de cursos online e abertos da Universidade Federal do Paraná foca em microaprendizagens e formações de curta duração no formato MOOC.. Uma excelente oportunidade regional para estudantes do Paraná adicionarem o peso de uma universidade federal ao primeiro currículo.
 </p>
 </Link>
-<Link href={'https://ufpr.br'} target="_blank" className="md:col-span-2 h-auto lg:h-60 shadow-sm shadow-white p-4 text-white bg-linear-30  from-red-500 to-purple-400">
+<Link href={'/'} target="_blank" className="md:col-span-2 h-auto lg:h-60 shadow-sm shadow-white p-4 text-white bg-linear-30  from-red-500 to-purple-400">
 
 <p className="font-mono text-xl md:text-2xl  pb-2 uppercase">O seu currículo do amanhã depende das escolhas que você faz hoje.</p>
 <p className="lowercase">
@@ -140,7 +140,7 @@ Este é o seu guia definitivo para começar agora, sem gastar nada. A internet e
 
 <div className="  flex flex-col p-4 md:p-10 gap-6 md:gap-10 text-sm font-inter lowercase h-auto">
 
-         <Link href={'https://youtube.com'} target="_blank" className="h-auto md:h-60 shadow-sm shadow-white p-4 text-white bg-linear-30  from-blue-500 to-gray-600 border-l-8">
+         <Link href={'https://www.youtube.com/cursoemvideo'} target="_blank" className="h-auto md:h-60 shadow-sm shadow-white p-4 text-white bg-linear-30  from-blue-500 to-gray-600 border-l-8">
 
 <p className="font-mono text-xl md:text-2xl pb-2 uppercase">Curso em Vídeo (Gustavo Guanabara) </p>
 <p className="">
@@ -172,7 +172,7 @@ Git/GitHub
 </ol>
 </Link>
      
-         <Link href={'https://khanacademy.org'} target="_blank" className="h-auto md:h-60 shadow-sm shadow-white p-4 text-white bg-linear-30  from-emerald-400 to-gray-600 border-l-8">
+         <Link href={'https://pt.khanacademy.org/computing/computer-programming'} target="_blank" className="h-auto md:h-60 shadow-sm shadow-white p-4 text-white bg-linear-30  from-emerald-400 to-gray-600 border-l-8">
 
 <p className="font-mono text-xl md:text-2xl pb-2 uppercase"> Khan Academy (Área de Computação) </p>
 <p className="">
@@ -199,18 +199,33 @@ Introdução ao SQL (Bancos de dados).
 
 
 
-         <Link href={'https://freecodecamp.org'} target="_blank" className="h-auto md:h-60 shadow-sm shadow-white p-4 text-white bg-linear-30  from-blue-900 to-gray-900 border-l-8">
+         <Link href={'https://www.freecodecamp.org/portuguese/learn/learn-python-for-beginners'} target="_blank" className="h-auto md:h-60 shadow-sm shadow-white p-4 text-white bg-linear-30  from-blue-900 to-gray-900 border-l-8">
 
 <p className="font-mono text-xl md:text-2xl pb-2 uppercase">freeCodeCamp (Versão em Português)</p>
 <p className="">
 Uma plataforma global interativa e sem fins lucrativos. O estudante aprende programando direto...
 </p>
+<ol className="list-disc pl-6">
+  <p className="font-mono">
+    O que aprender:
+  </p>
+  <li>
+    Tags HTML5 e Estilização CSS3 (Aprender: Flexbox, CSS Grid, Design Responsivo e Acessibilidade Web)
+  </li>
+  <li>
+    Sintaxe de JavaScript e Python (Aprender: Lógica de Programação, Estruturas de Dados, Algoritmos e Automação de Tarefas)
+  </li>
+  <li>
+    Estruturas de Banco de Dados SQL (Aprender: Criação de Tabelas, Relacionamentos, Comandos SELECT, WHERE e JOINs)
+  </li>
+</ol>
+
 </Link>
 
      <Link href={'https://w3schools.com'} target="_blank" className="h-auto shadow-sm shadow-white p-4 text-white bg-linear-30 from-green-600 to-gray-500 border-l-8">
 <p className="font-mono text-2xl pb-2 uppercase">W3Schools (Em Português)</p>
 <p className="">
-O maior site de referência e consulta para programadores do mundo. Possui tutoriais curtos, objetivos e um editor onde o aluno pode alterar o código e ver o resultado na hora.
+O maior site de referência e consulta para programadores do mundo. Possui tutoriais curtos, objetivos e um editor onde o aluno pode alterar o código e ver o resultado na hora,basta se cadastrar,logar e mudar o idioma.
 </p>
 <ol className="list-disc pl-6">
   <p className="font-mono">
